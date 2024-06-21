@@ -1,0 +1,8 @@
+.login-container{
+    width: 20rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    display:block;
+    background-color:blueviolet;
+}
