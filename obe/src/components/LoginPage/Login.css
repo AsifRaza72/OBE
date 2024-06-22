@@ -1,8 +1,42 @@
 .login-container{
-    width: 20rem;
-    height: 10rem;
-    border-radius: 0.5rem;
+    width: 100%;
+    height: 40rem;
     border-color: black;
-    display:block;
-    background-color:blueviolet;
+    color: white;
+    /* display:grid;
+    grid-template-columns: 1fr; */
+    background-color:rgb(49, 81, 110);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.form{
+    width: 30rem;
+    height: 12rem;
+    background-color: rgb(68, 68, 107);
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0.5rem;
+    margin: auto;
+    box-shadow: 1px -1px 1px 1px black;
+}
+.form-group{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    color: white;
+    width: auto;
+    align-items: center;
+    align-content: center;
+}
+.a{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    /* text-decoration: none; */
+    width: 10rem;
+    /* margin: auto; */
+    
 }
